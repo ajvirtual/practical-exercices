@@ -1,0 +1,9 @@
+header a {
+    color:white !important;
+}
+.dropdown a:not(#dropdownId){
+    color: black !important;
+}
+li.nav-item {
+    margin-right: 3em;
+}

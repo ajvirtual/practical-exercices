@@ -1,0 +1,14 @@
+thead tr {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td{
+    border: solid 1px;
+    text-align: center;
+    padding: .3em 1em 0.3em 1em;
+}
+
+td.cell-custom {
+    border: none !important;
+}

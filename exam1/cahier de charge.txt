@@ -1,0 +1,43 @@
+exercice de gestion de base de donnee :
+
+ BLOG :
+ - titre : infomag.mg
+ - liens : 
+    - menu : 
+        - home (lister les dix dernier articles)
+        - categories : 
+            - technologies :
+               - informatique
+               - electronique
+               - mecanique
+               - 
+            - sports :
+                - collectif :
+                - individuel :
+                - e-sports
+            - politique 
+            - education : 
+                - scolaire
+                - conseil
+            - sante :
+            - tutoriel :
+            - autre :
+                - insolite
+                - divers
+                - culture
+            
+        - commentaires
+        - FAQs
+        - Feedbacks
+        - Contacts
+    - reseau sociaux : facebook, twitter, youtube, linkedin, ...
+    - quick links
+
+
+ base de donnee :
+   - db name : infomag
+   - table : 
+        users : id, nom, pseudo, email, role
+        posts : id, title, content, dateInsert, dateModif, categorie_id
+        categories : id, name, categorie_id
+        comments : id, name, content, email, dateAjout, dateModif, posts_id
